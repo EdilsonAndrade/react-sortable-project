@@ -1,0 +1,15 @@
+.container{
+    position:fixed;
+    top:0;
+    width: 100%;
+    background-color: #ffc;
+    z-index: 1;
+
+    &__menu{
+        display: flex;
+        flex-direction: row;
+        & li{
+            list-style: none;
+        }
+    }
+}
