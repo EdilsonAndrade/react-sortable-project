@@ -20,7 +20,7 @@ let i =1;
     setSortableItems(newItems);
   },[])
 
-  const SortableItem = SortableElement(({value}:{value:string}) => <div>{value}</div>);
+  const SortableItem = SortableElement(({value}:{value:string}) => <div style={{height:'50px', margin:'10px'}}>{value}</div>);
   const SortableList = SortableContainer(({sortableItems}:{sortableItems:string[]}) => {
     return (
       <div style={{ 
@@ -67,6 +67,9 @@ let i =1;
       </aside>  
     
 
+    </div>
+    <div style={{background:'#444', display:"flex", justifyContent:"center", alignItems:"center", color:'#fff', width:'100%', height:'200px', fontSize:'45px'}}>
+      TESTE 
     </div>
     </div>
    
